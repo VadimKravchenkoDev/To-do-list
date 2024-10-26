@@ -53,6 +53,10 @@ dependencies {
 //Data store
     implementation(libs.androidx.datastore)
 
+//Compose dependencies
+    implementation(libs.androidx.viewmodel)
+    implementation(libs.androidx.navigation)
+
 //Standard libs
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

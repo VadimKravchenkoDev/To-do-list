@@ -38,6 +38,7 @@ android {
 }
 
 dependencies {
+
 //Room
     implementation(libs.androidx.room)
     ksp(libs.androidx.room.ksp)
@@ -47,6 +48,10 @@ dependencies {
     ksp(libs.androidx.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.androidx.hilt.navigation.compiler)
+
+
+//Data store
+    implementation(libs.androidx.datastore)
 
 //Standard libs
     implementation(libs.androidx.core.ktx)
